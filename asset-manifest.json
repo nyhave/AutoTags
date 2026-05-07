@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AutoTags/static/css/main.64be00b0.css",
+    "main.js": "/AutoTags/static/js/main.b58063fc.js",
+    "index.html": "/AutoTags/index.html",
+    "main.64be00b0.css.map": "/AutoTags/static/css/main.64be00b0.css.map",
+    "main.b58063fc.js.map": "/AutoTags/static/js/main.b58063fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64be00b0.css",
+    "static/js/main.b58063fc.js"
+  ]
+}

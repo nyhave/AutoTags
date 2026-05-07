@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AutoTags/static/css/main.64be00b0.css",
-    "main.js": "/AutoTags/static/js/main.b58063fc.js",
+    "main.css": "/AutoTags/static/css/main.fa5ab4a5.css",
+    "main.js": "/AutoTags/static/js/main.7295ec82.js",
     "index.html": "/AutoTags/index.html",
-    "main.64be00b0.css.map": "/AutoTags/static/css/main.64be00b0.css.map",
-    "main.b58063fc.js.map": "/AutoTags/static/js/main.b58063fc.js.map"
+    "main.fa5ab4a5.css.map": "/AutoTags/static/css/main.fa5ab4a5.css.map",
+    "main.7295ec82.js.map": "/AutoTags/static/js/main.7295ec82.js.map"
   },
   "entrypoints": [
-    "static/css/main.64be00b0.css",
-    "static/js/main.b58063fc.js"
+    "static/css/main.fa5ab4a5.css",
+    "static/js/main.7295ec82.js"
   ]
 }

@@ -1,0 +1,71 @@
+{
+  "taxonomy": {
+    "document_type": ["Report", "Invoice", "Email", "Meeting Notes", "Contract"],
+    "department": ["Sales", "Engineering", "HR", "Finance", "Operations"],
+    "confidentiality": ["Public", "Internal", "Confidential"],
+    "priority": ["Low", "Medium", "High", "Urgent"],
+    "status": ["Draft", "Approved", "Completed", "Pending Review"]
+  },
+  "documents": [
+    {
+      "id": "doc_001",
+      "filename": "Q4_2025_Financial_Report.txt",
+      "content": "FINANCIAL REPORT - Q4 2025\n\nExecutive Summary:\nOur company has achieved record revenue of $47.2M in Q4 2025, representing a 23% year-over-year growth. Operating expenses have been optimized to 32% of revenue, resulting in net profit of $18.5M.\n\nRevenue Breakdown:\n- Product Sales: $28.4M (60%)\n- Services: $14.1M (30%)\n- Licensing: $4.7M (10%)\n\nKey Financial Metrics:\n- Gross Margin: 68%\n- Operating Margin: 39%\n- Return on Assets: 24%\n- Cash Position: $52.3M\n\nDepartment Performance:\nSales Department exceeded targets by 18%, with strong performance in North America and Europe. Engineering maintained efficiency with 15% reduction in project costs. HR successfully completed talent acquisition initiatives.\n\nOutlook for 2026:\nWe project 28% revenue growth for 2026 based on current market trends and contract pipeline. Capital expenditures are budgeted at $8.5M for infrastructure improvements.\n\nThis report is for internal use only and contains proprietary financial information.",
+      "expected_tags": ["Report", "Finance", "Confidential", "Completed"],
+      "confidence": {
+        "Report": 0.98,
+        "Finance": 0.95,
+        "Confidential": 0.92,
+        "Completed": 0.88
+      }
+    },
+    {
+      "id": "doc_002",
+      "filename": "Invoice_INV-2026-001847.txt",
+      "content": "INVOICE\n\nInvoice Number: INV-2026-001847\nDate: May 7, 2026\nDue Date: June 7, 2026\n\nBill To:\nAcme Corporation\n123 Business Avenue\nNew York, NY 10001\n\nFrom:\nTech Solutions Inc.\n456 Innovation Street\nSan Francisco, CA 94105\n\nInvoice Details:\n\nItem Description | Quantity | Unit Price | Amount\n─────────────────────────────────────────────────\nCloud Hosting Services (May 2026) | 1 | $5,000.00 | $5,000.00\nAPI Integration Support | 40 hours | $150.00/hr | $6,000.00\nSecurity Audit Services | 16 hours | $200.00/hr | $3,200.00\nMonthly Support Package | 1 | $2,500.00 | $2,500.00\n\nSubtotal: $16,700.00\nTax (8%): $1,336.00\nTotal Due: $18,036.00\n\nPayment Terms: Net 30\nPayment Method: Bank Transfer\n\nThank you for your business!",
+      "expected_tags": ["Invoice", "Sales", "Internal", "Pending Review"],
+      "confidence": {
+        "Invoice": 0.99,
+        "Sales": 0.85,
+        "Internal": 0.90,
+        "Pending Review": 0.88
+      }
+    },
+    {
+      "id": "doc_003",
+      "filename": "Meeting_Notes_Product_Roadmap.txt",
+      "content": "MEETING NOTES - PRODUCT ROADMAP PLANNING\nDate: May 6, 2026\nAttendees: Sarah (PM), Mike (Engineering), Lisa (Design), Tom (Marketing)\n\nAgenda:\n1. Review Q2 2026 product roadmap\n2. Discuss new feature prioritization\n3. Identify resource constraints\n4. Plan release schedule\n\nKey Discussion Points:\n\n• Mobile App Enhancement (High Priority)\n  - Add offline mode capability\n  - Improve UI/UX based on user feedback\n  - Target release: June 30, 2026\n  - Estimated effort: 240 hours\n\n• API v2 Development (High Priority)\n  - Breaking changes for better performance\n  - New authentication mechanism\n  - Comprehensive documentation required\n  - Target release: July 15, 2026\n  - Engineering team: 320 hours allocated\n\n• Dashboard Analytics (Medium Priority)\n  - Real-time data visualization\n  - Custom report generation\n  - Target release: August 31, 2026\n\n• AI Integration Pilot (Low Priority)\n  - Explore machine learning capabilities\n  - Proof of concept phase\n  - Requires additional research\n\nAction Items:\n- Sarah: Finalize feature specifications by May 10\n- Mike: Provide detailed technical estimates by May 8\n- Lisa: Create UI mockups by May 12\n- Tom: Prepare marketing messaging by May 15\n\nNext Meeting: May 13, 2026 (Weekly sync)",
+      "expected_tags": ["Meeting Notes", "Engineering", "High", "Approved"],
+      "confidence": {
+        "Meeting Notes": 0.97,
+        "Engineering": 0.94,
+        "High": 0.89,
+        "Approved": 0.82
+      }
+    },
+    {
+      "id": "doc_004",
+      "filename": "Employee_Onboarding_Policy.txt",
+      "content": "EMPLOYEE ONBOARDING AND INTEGRATION POLICY\n\nEffective Date: January 1, 2026\nPolicy Owner: Human Resources Department\nStatus: APPROVED\n\n1. OVERVIEW\nThis policy outlines the standard procedures for welcoming and integrating new employees into our organization. The goal is to ensure a smooth transition and help new team members become productive members of the team.\n\n2. PRE-ARRIVAL PHASE\n- Complete background checks and reference verification\n- Prepare workspace (desk, computer, security access)\n- Set up IT accounts and email\n- Prepare welcome package\n- Assign onboarding buddy from same department\n\n3. FIRST DAY ORIENTATION\n- Welcome meeting with direct manager\n- Office tour and facilities overview\n- Introduction to team members\n- IT setup assistance\n- Review of handbook and policies\n- Health and safety briefing\n\n4. FIRST WEEK ACTIVITIES\n- Complete mandatory training modules\n- Meet with HR for benefits enrollment\n- Department-specific training\n- Shadowing of team members\n- Goal-setting session with manager\n\n5. FIRST 30 DAYS\n- Weekly check-ins with manager\n- Completion of department training\n- Introduction to key stakeholders\n- Initial performance expectations review\n\n6. 90-DAY REVIEW\n- Formal performance evaluation\n- Probationary period assessment\n- Adjustment of responsibilities if needed\n- Confirmation of employment status\n\n7. TOOLS AND RESOURCES PROVIDED\n- Employee handbook\n- Company intranet access\n- Mentorship program enrollment\n- Professional development budget\n- Office supplies and equipment\n\n8. CONTINUOUS IMPROVEMENT\nHR reviews this policy annually and gathers feedback from new hires to improve the onboarding experience.\n\nFor questions, contact: hr@company.com",
+      "expected_tags": ["Report", "HR", "Internal", "Approved"],
+      "confidence": {
+        "Report": 0.80,
+        "HR": 0.96,
+        "Internal": 0.93,
+        "Approved": 0.95
+      }
+    },
+    {
+      "id": "doc_005",
+      "filename": "Service_Agreement_ClientABC.txt",
+      "content": "SERVICE AGREEMENT\n\nThis Service Agreement (\"Agreement\") is entered into as of May 7, 2026, between:\n\nPROVIDER: TechCorp Solutions Inc.\nAddress: 456 Tech Boulevard, Seattle, WA 98101\n\nCLIENT: ABC Manufacturing Ltd.\nAddress: 789 Industrial Way, Portland, OR 97205\n\n1. SERVICES\nProvider agrees to furnish the following services:\n\n1.1 Cloud Infrastructure Management\n- 24/7 monitoring and maintenance\n- Automated backup and disaster recovery\n- Performance optimization and scaling\n- Security patches and updates\n\n1.2 Technical Support\n- Priority email and phone support (Business hours)\n- Emergency hotline (24/7 for critical issues)\n- Maximum response time: 4 hours for critical issues\n- Issue resolution SLA: 99% within 48 hours\n\n1.3 Reporting and Analytics\n- Monthly performance reports\n- Quarterly business reviews\n- Annual capacity planning meetings\n\n2. TERM\nThis Agreement shall commence on June 1, 2026, and continue for a period of 12 months, unless terminated earlier as provided herein.\n\n3. FEES AND PAYMENT\n- Monthly Service Fee: $25,000\n- Overage charges: $150 per additional compute unit\n- Payment due within 30 days of invoice\n- Late payment subject to 1.5% monthly interest\n\n4. CONFIDENTIALITY\nBoth parties agree to maintain confidentiality of proprietary information and data. This obligation survives termination of this Agreement for a period of 2 years.\n\n5. LIMITATION OF LIABILITY\nIn no event shall either party be liable for indirect, incidental, or consequential damages.\n\n6. TERMINATION\nEither party may terminate this Agreement with 30 days written notice.\n\n7. GOVERNING LAW\nThis Agreement shall be governed by the laws of the State of Washington.\n\nExecuted as of the date first written above.\n\n_________________________              _________________________\nTechCorp Solutions Inc.               ABC Manufacturing Ltd.\nAuthorized Signature                   Authorized Signature",
+      "expected_tags": ["Contract", "Sales", "Confidential", "Pending Review"],
+      "confidence": {
+        "Contract": 0.98,
+        "Sales": 0.88,
+        "Confidential": 0.91,
+        "Pending Review": 0.87
+      }
+    }
+  ]
+}
